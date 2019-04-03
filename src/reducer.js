@@ -1,0 +1,8 @@
+// Combine all the reducers and return
+import { combineReducers } from 'redux'
+import { user } from './redux/user.redux'
+import { chatuser } from './redux/chatuser.redux'
+import { chat } from './redux/chatinfo.redux'
+
+export default combineReducers({user, chatuser, chat})
+

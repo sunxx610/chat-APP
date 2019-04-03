@@ -1,0 +1,11 @@
+.btn-custom {
+	border-radius: 0 !important;
+}
+.input-custom {
+	font-size: 18px;
+	line-height: 20px;
+}
+.register-custom {
+  padding: 20px 5px;
+	float: right;
+}
